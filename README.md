@@ -1,28 +1,32 @@
 # Yash Vora Portfolio Website
 
-This is a simple static portfolio website built for GitHub Pages.
+This is a GitHub Pages portfolio website for Yash Vora.
 
 ## Files
 
-- `index.html` — main website content
-- `styles.css` — website design and mobile responsiveness
+- `index.html` — website content
+- `styles.css` — website styling
+- `headshot.jpg` — optional headshot image that should be uploaded directly to GitHub
 
-## How to publish on GitHub Pages without buying a domain
+## GitHub Pages setup
 
-Option A: Personal homepage
-1. Create a public GitHub repository named exactly: `YOUR-GITHUB-USERNAME.github.io`
-2. Upload `index.html` and `styles.css` into the repository.
-3. Commit the files.
-4. Your website will publish at: `https://YOUR-GITHUB-USERNAME.github.io/`
+Use the repository name:
 
-Option B: Project portfolio repository
-1. Create a public GitHub repository called `portfolio`.
-2. Upload `index.html` and `styles.css`.
-3. Go to Settings > Pages.
-4. Under Build and deployment, choose Deploy from a branch.
-5. Select `main` and `/root`, then save.
-6. Your website will publish at: `https://YOUR-GITHUB-USERNAME.github.io/portfolio/`
+`yashvoraanalytics.github.io`
 
-## Recommended privacy edit
+Then upload:
 
-Do not put your phone number or full home address on the public website. Use email and LinkedIn instead.
+- `index.html`
+- `styles.css`
+- `README.md`
+- `headshot.jpg`
+
+After the files are uploaded, go to **Settings → Pages** and publish from the `main` branch and `/root` folder.
+
+Your live site should be:
+
+`https://yashvoraanalytics.github.io/`
+
+## Notes
+
+This site avoids listing a phone number publicly and uses email + LinkedIn for contact.
